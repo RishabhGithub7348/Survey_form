@@ -1,0 +1,129 @@
+body{
+
+
+    background-image:
+    linear-gradient(115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)),
+    url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+   
+    color: white;
+     font-family: 'Poppins', sans-serif;
+     opacity: 95%;
+     
+ 
+
+}
+#survey-form{
+    color: white;
+}
+#title{
+    padding-left: 550px;
+    padding-top: 30px;
+}
+#description{
+    padding-left: 500px;
+    font-size: 20px;
+    font-style: italic;
+   
+}
+#survey-form{
+    margin-left: 25%;
+    width: 50%;
+    
+  padding-left: 70px;
+  padding-top: 50px;
+  
+  
+  background-color: #1b1b32;  
+  font-size: 22px;
+  border-radius: 8px;
+   padding-bottom: 50px;
+   opacity: 0.9;
+}
+input[type=text]{
+    width :95%;
+    height:35px;
+    border: 3px solid rgb(84, 124, 245);
+    padding-top:4px;
+    background-color: white;
+    color:black;
+    font-size: 15px;
+}
+input[type=email]{
+    width :95%;
+    height:35px;
+    border: 3px solid rgb(84, 124, 245);
+    padding-top:4px;
+    background-color: white;
+    color:black;
+    font-size: 15px;
+}
+
+#comments{
+        width :95%;
+    height:100px;
+    border: 3px solid rgb(84, 124, 245);
+    padding-top:4px;
+    background-color: white;
+    color:black;
+    font-size: 20px;
+}
+
+#submit{
+    width :96%;
+    height:50px;
+    font-size: 20px;
+    border: 3px solid;
+    padding-top:4px;
+    background-color: rgb(20, 231, 97);
+    color: white;
+}
+input[id=number]{
+    width :95%;
+    height:35px;
+    border: 3px solid rgb(84, 124, 245);
+    padding-top:4px;
+    background-color: white;
+    color:black;
+    font-size: 15px;
+}
+
+/* 
+#current_role{
+    width :95%;
+    height:50px;
+    border: 3px solid rgb(84, 124, 245);
+    padding-top:4px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-size: 15px; */
+
+#dropdown{
+    width :95%;
+    height:50px;
+    border: 3px solid rgb(84, 124, 245);
+    padding-top:4px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-size: 15px;
+}
+
+input[type=checkbox]{
+    width :30px;
+    height:18px;
+  
+    background-color: white;
+   
+    font-size: 15px;
+}
+input[type=radio]{
+    width: 1.5em; height: 1.5em;
+  
+    background-color: white;
+   
+    font-size: 15px;
+}
